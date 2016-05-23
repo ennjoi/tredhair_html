@@ -12,7 +12,7 @@ html, body {
 header {
   height: 700px;
   background-color: #e23e57;
-  background: url(outsidelux.jpg) center top no-repeat;
+  background: url(images/outsidelux.jpg) center top no-repeat;
   background-size: cover;
 }
 
