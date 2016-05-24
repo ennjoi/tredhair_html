@@ -1,6 +1,6 @@
 @font-face {
   font-family: "NotoSansCJKjp-Thin";
-  src: url(fonts/notosans/NotoSansCJKjp-Thin.otf) format("opentype");
+  src: url(font/notosans/NotoSansCJKjp-Thin.otf) format("opentype");
 }
 
 html, body {
@@ -16,6 +16,14 @@ header {
   background-size: cover;
 }
 
+li {
+  list-style: none;
+}
+
+footer div {
+  padding-top: 10px;
+}
+
 .navbar {
   height: 100px;
   background-color: rgba(255, 0, 0, 0.3);
@@ -25,8 +33,8 @@ header {
 }
 
 #about {
-  height: 500px;
   background-color: none;
+  padding: 100px;
 }
 
 #logo {
@@ -34,17 +42,32 @@ header {
 }
 
 #pics {
-  height: 500px;
+  padding: 100px;
   background-color: #88304f;
+  background: url(images/landing.jpg) center top no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.white {
+  color: white;
+}
+
+#pics img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
 }
 
 #services {
-  height: 500px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: none;
 }
 
 #address {
-  height: 500px;
+  padding: 100px;
   background-color: #522546;
 }
 
@@ -58,12 +81,12 @@ header {
 }
 
 #contact {
-  height: 500px;
+  padding: 100px;
   background-color: #88304e;
 }
 
 #subscribe {
-  height: 500px;
+  padding: 100px;
   background-color: none;
 }
 
