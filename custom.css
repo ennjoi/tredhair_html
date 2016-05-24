@@ -1,6 +1,6 @@
 @font-face {
   font-family: "NotoSansCJKjp-Thin";
-  src: url(fonts/notosans/NotoSansCJKjp-Thin.otf) format("opentype");
+  src: url(font/notosans/NotoSansCJKjp-Thin.otf) format("opentype");
 }
 
 html, body {
@@ -82,7 +82,7 @@ li {
 }
 
 #subscribe {
-  height: 500px;
+  padding: 100px;
   background-color: none;
 }
 
