@@ -45,10 +45,10 @@ a:visited {
   text-decoration: none;
 }
 
-a:hover {
+/*a:hover {
   text-decoration: none;
   font-family: Escafina, serif;
-}
+}*/
 
 a:active {
   color: red;
