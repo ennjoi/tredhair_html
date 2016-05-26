@@ -9,6 +9,11 @@ html, body {
   font-size: 20px;
 }
 
+h1 { 
+  letter-spacing: 2px;
+  font-family: Escafina, Georgia, serif; 
+}
+
 header {
   height: 700px;
   background-color: #e23e57;
@@ -18,10 +23,35 @@ header {
 
 li {
   list-style: none;
+  line-height: 2.5;
 }
 
 footer div {
   padding-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #88304e;
+}
+
+
+a:link {
+  text-decoration: none;
+
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  font-family: Escafina, serif;
+}
+
+a:active {
+  color: red;
 }
 
 .navbar {
